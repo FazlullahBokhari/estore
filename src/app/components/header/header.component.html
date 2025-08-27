@@ -4,6 +4,11 @@
         <h1 class="text-xl font-bold">eStore</h1>
       </div>
       <div class="p-0 my-4 w-[50%] h-[2.5rem] bg-white flex items-center">
+        <select name="" id="" class="w-auto h-full border-none font-semibold px-2 pr-5 ">
+          <option value="women">Women</option>
+          <option value="men">Men</option>
+          <option value="kids">Kids</option>
+        </select>
         <input
           class="w-[90%] h-full inline-block border-none outline-none px-3"
           type="text"
@@ -14,6 +19,22 @@
         >
           <fa-icon [icon]="faSearch"></fa-icon>
         </button>
+      </div>
+      <div class="flex items-center justify-end h-full w-[27%] gap-6">
+        <div class="flex items-center gap-2 text-white">
+          <fa-icon [icon]="faUserCircle" class="text-[1.3em]"></fa-icon>
+          <h5>
+            <a href="#" class="text-white no-underline hover:underline">Sign in</a>
+          </h5>
+          <span>/</span>
+          <h5>
+            <a href="#" class="text-white no-underline hover:underline">Register </a>
+          </h5>
+        </div>
+        <div class="flex items-center gap-4 text-white text-[1.3em]">
+          <fa-icon [icon]="faHeart"></fa-icon>
+          <fa-icon [icon]="faShoppingCart"></fa-icon>
+        </div>
       </div>
     </div>
   </div>
